@@ -36,8 +36,8 @@ CREATE TABLE Campaign (
     backers_count INTEGER   NOT NULL,
     country VARCHAR(50)   NOT NULL,
     currency VARCHAR(50)   NOT NULL,
-    launch_date VARCHAR(50)   NOT NULL,
-    end_date VARCHAR(50)   NOT NULL,
+    launch_date DATE   NOT NULL,
+    end_date DATE   NOT NULL,
     category_id VARCHAR(50)   NOT NULL,
     subcategory_id VARCHAR(50)   NOT NULL,
     CONSTRAINT pk_Campaign PRIMARY KEY (
