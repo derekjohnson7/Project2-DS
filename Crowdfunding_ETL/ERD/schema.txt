@@ -21,8 +21,8 @@ cf_id INTEGER PK
 contact_id INTEGER FK >- Contacts.contact_id
 company_name VARCHAR
 description VARCHAR
-goal INTEGER
-pledged INTEGER
+goal NUMERIC
+pledged NUMERIC
 outcome VARCHAR
 backers_count INTEGER
 country VARCHAR
